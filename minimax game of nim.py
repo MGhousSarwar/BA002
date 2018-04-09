@@ -40,7 +40,7 @@ def minimax(game, marble, player):
     return (value, option)
 dp = {}
 if __name__ == "__main__":
-    game = MarbleGame(8)
+    game = MarbleGame(15)
 
     marble = game.init()
     print("Finish The Marbles To Win The Game")
